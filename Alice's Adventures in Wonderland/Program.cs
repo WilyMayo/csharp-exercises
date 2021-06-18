@@ -13,19 +13,21 @@ namespace Alice_s_Adventures_in_Wonderland
                 " but it had no pictures or conversations in it," +
                 " 'and what is the \n use of a book," +
                 "' thought Alice 'without pictures or conversation?'";
-            Console.WriteLine(quote);
+            Console.WriteLine($"\"{quote}\"");
             Console.WriteLine("============================================== \n");
-            Console.WriteLine("Enter a word to check if it exgustes in the secentes: ");
+            Console.WriteLine("Enter a word to check if it exist in the secentes: ");
             string userInput = Console.ReadLine();
-
+            string word = userInput;
             quote.ToLower();
-            if(quote.Contains(userInput) == true)
+            bool containsSearchResult = quote.ToLower().Contains(word);
+
+            if(containsSearchResult == true)
             {
-                Console.WriteLine("Word found in this passage");
+                Console.WriteLine(" (Yes) Word was found in this passage");
             }
             else
             {
-                Console.WriteLine("This word is not in the passage");
+                Console.WriteLine(" (No) Word was not found in this passage");
             }
 
         }

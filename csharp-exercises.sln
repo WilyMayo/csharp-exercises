@@ -18,11 +18,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookArray", "Gradebook
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{C8095140-2AF8-4047-80F6-183C77BF2852}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle Dimensions", "Rectangle Dimensions\Rectangle Dimensions.csproj", "{86069BD8-A4B7-4634-A1C6-DB971EB63FD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rectangle Dimensions", "Rectangle Dimensions\Rectangle Dimensions.csproj", "{86069BD8-A4B7-4634-A1C6-DB971EB63FD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miles-Per-Gallon", "Miles-Per-Gallon\Miles-Per-Gallon.csproj", "{F740ABAB-86DE-482B-B0AF-D69F9F0DCD5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miles-Per-Gallon", "Miles-Per-Gallon\Miles-Per-Gallon.csproj", "{F740ABAB-86DE-482B-B0AF-D69F9F0DCD5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alice's Adventures in Wonderland", "Alice's Adventures in Wonderland\Alice's Adventures in Wonderland.csproj", "{8184631E-3976-4BE8-B122-D89A64128B43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alice's Adventures in Wonderland", "Alice's Adventures in Wonderland\Alice's Adventures in Wonderland.csproj", "{8184631E-3976-4BE8-B122-D89A64128B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area", "Area\Area.csproj", "{BC18A137-87E7-41C7-99B8-81B5E3D535A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{8184631E-3976-4BE8-B122-D89A64128B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8184631E-3976-4BE8-B122-D89A64128B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8184631E-3976-4BE8-B122-D89A64128B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC18A137-87E7-41C7-99B8-81B5E3D535A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC18A137-87E7-41C7-99B8-81B5E3D535A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC18A137-87E7-41C7-99B8-81B5E3D535A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC18A137-87E7-41C7-99B8-81B5E3D535A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
